@@ -6,7 +6,7 @@
 }
 
 .nav ul {
-    width: 25%%;
+    width: 25% ;
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
@@ -106,7 +106,7 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    width: 80%%;
+    width: 80%;
     padding: 25px 50px;
 
 }
@@ -348,7 +348,5 @@ max-height:100%;
         width: 50%;
         border-radius: 20px;
     }
-
-}
 
 }
