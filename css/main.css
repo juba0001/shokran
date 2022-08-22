@@ -1,352 +1,129 @@
-.nav {
-    background-color: aliceblue;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 
-.nav ul {
-    width: 25% ;
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
+.profile-header{
+    width: 50%;
+    margin: auto;
 }
-
-.nav ul li {
-    padding: 10px;
+.profile-header h1{
+    color: red;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    text-align: center;
 }
-
-.nav ul li a {
-    text-decoration: none;
+.profile-header h1::before{
+content:"";
+width: 25%;
+height: 5px;
+background-color: black;
+position: absolute;
+top: 50%;
+left: 0px;
 }
-
-.btn1 {
-    color: aliceblue;
+.profile-header h1::after{
+    content:"";
+    width: 25%;
+    height: 5px;
     background-color: black;
-    border-radius: 20px;
-}
-
-.nav .logo span {
-    color: #FFC300;
-}
-
-.nav .logo a {
-    text-decoration: none;
-}
-
-.btn20 {
-    background: #206bfb;
-    background-color: aqua;
-    border-radius: 0px;
-    width: 15%;
-    height: 25px;
-    text-decoration: none;
-}
-
-.caption {
-    text-align: right;
-    width: 45%;
-    padding: 25px;
-}
-
-.caption h2 {
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #858ea1;
-}
-
-.row1 {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 80%;
-    margin: 0px 20px;
-    padding: 10px;
-}
-
-.m21 {
-    padding: 50px 50px;
-    color: #5f687b;
-    background: #f9f9fa;
-    border-left: 5px white solid;
-    border-right: 5px white solid;
-    border-top: 5px white solid;
-    border-bottom: 5px white solid;
-    border-radius: 20px;
-}
-
-.hm21 {
-    font-size: 30px;
-}
-
-.m22 {
-    padding: 50px 50px;
-    margin: 10px;
-    color: #5f687b;
-    background: #f9f9fa;
-    border-left: 5px white solid;
-    border-right: 5px white solid;
-    border-top: 5px white solid;
-    border-bottom: 5px white solid;
-    border-radius: 20px;
-}
-
-.hm22 {
-    font-size: 30px;
-}
-
-.main2 {
-    padding: 20px 20px;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-
-.main1 {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 80%;
-    padding: 25px 50px;
-
-}
-
-.pic1 img {
-    width: 50%;
-    border-radius: 20px;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.about {
-    color: #5f687b;
-    background: #f9f9fa;
-    border-left: 2px white solid;
-    border-right: 2px white solid;
-    border-top: 2px white solid;
-    border-bottom: 2px white solid;
-    border-radius: 10px;
-    width: 50%;
-}
-
-.habout {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-}
-
-.pabout {
-    text-align: left;
-}
-
-
-
-.info {
-    font-style: italic;
-    font-size: 15px;
-    border-left: 5px white solid;
-    border-top: 5px white solid;
-    border-right: 5px white solid;
-    border-bottom: 5px white solid;
-    border-radius: 20px;
-}
-
-.icons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    flex-direction: row;
-}
-
-.dicon {
-    width: 24%;
-    height: 70px;
-    margin: 10px;
-    color: #5f687b;
-    background: #f9f9fa;
-    border-top: 3px solid #01b8dc;
-    border-bottom: 3px solid #01b8dc;
-    border-radius: 20px;
-    text-align: center;
-    padding: 10px 10px;
-}
-
-.hicons {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.hm5 {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.add1 {
-    width: 30%;
-    height: 500px;
-    padding: 60px 60px;
-    background-color: rgb(255, 255, 255, 0.3);
-    border-top: 3px solid #01b8dc;
-    border-bottom: 3px solid #01b8dc;
-    border-radius: 20px;
-}
-
-.m5 {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    }
+.row{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    flex-direction: row;
+    margin: 50px 0px;
+}
+.profile {
+    background-image: url(../img/pexels-photo-1591373.jpeg);
+    width: 300px;
+    height: 300px;
+    background-size: 100% 100%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
 }
 
-.form {
-    width: 30%;
-    height: 500px;
-    padding: 60px 60px;
-    background-color: rgb(255, 255, 255, 0.3);
-    border-top: 3px solid #01b8dc;
-    border-bottom: 3px solid #01b8dc;
-    border-radius: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-.iframe1 {
-    width: 90%;
-    height: 160px;
-}
-
-.txta {
-    resize: none;
-}
-
-.hr1 {
-    width: 80%;
-}
-
-.pf {
-    text-align: center;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.b2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    width: 30%;
-    border-radius: 20px;
-}
-
-body {
-    color: #5f687b;
-    background: #f9f9fa;
-}
-
-.hr0 {
-    width: 20%;
-}
-
-.socials {
+.caption {
     width: 100%;
-    height: auto;
+    height: 100%;
+    margin: auto;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    transition: all  1s;
+}
+.profile:hover .caption{
+    top: 0%;
+    right: 0%;
+    transform:rotate(360deg) ;
 }
 
-i {
-    color: black;
-    width: 10%;
+.caption i{
+    font-size: 25px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.caption p{
+   padding: 20px;
+}
+.social{
+    background-color: red;
+    position: absolute;
+    width: 100%;
+    transition: all 1s;
+    transition-delay: 1sec;
+}
+.profile:hover .social{
+    top:80%;
+    background-color: rgba(206, 48, 48, 0.5);
+    
 }
 
-@media (max-width:920px) {
-    .nav {
+@media (max-width:920px){
+    .row{
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         justify-content: space-between;
-
+        margin: 50px 10px;
     }
-
-    .row1 {
-        width: 90%;
-        display: flex;
-        flex-wrap: wrap;
+    .profile {
+        background-image: url(../img/pexels-photo-1591373.jpeg);
+        width: 300px;
+        height: 300px;
+        background-size: 100% 100%;
+        margin: 10px;
+        position: relative;
+        overflow: hidden;
     }
-    .row1 .pic img{
-        max-width:100%;
-max-height:100%;
-    }
-
-    .caption {
-        width: 90%;
-        text-align: center;
-    }
-
-    .main2 {
-        display: flex;
-        flex-wrap: wrap;
-        width: 90%;
-    }
-
-    .main1 {
-        display: flex;
-        flex-wrap: wrap;
-        width: 90%;
-    }
-
-    .about {
-        width: 80%;
-    }
-
-    .dicon {
-        width: 80%;
-        height: 70px;
-        margin: 10px 10px;
-        background-color: rgb(255, 255, 255, 0.3);
-        border-radius: 20px;
-        text-align: center;
-        padding: 10px 10px;
-        font-size: 15px;
-    }
-
-    .hicons {
-        text-align: center;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    .profile-header h1{
+        color: red;
         font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        text-align: center;
     }
-
-    .add1 {
-        width: 80%;
-        height: 450px;
-        padding: 60px 60px;
-        color: #5f687b;
-        background: #f9f9fa;
-        border-left: 5px white solid;
-        border-right: 5px white solid;
-        border-top: 5px white solid;
-        border-bottom: 5px white solid;
-        border-radius: 20px;
+    .profile-header h1::before{
+    content:"";
+    width: 15%;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 0px;
     }
-
-    .form {
-        width: 80%;
-        height: 450px;
-        padding: 60px 60px;
-        color: #5f687b;
-        background: #f9f9fa;
-        border-left: 5px white solid;
-        border-right: 5px white solid;
-        border-top: 5px white solid;
-        border-bottom: 5px white solid;
-        border-radius: 20px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        flex-direction: column;
+    .profile-header h1::after{
+        content:"";
+        width: 15%;
+        height: 5px;
+        background-color: black;
+        position: absolute;
+        top: 50%;
+        right: 0px;
     }
-
-    .b2 {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 15px;
-        width: 50%;
-        border-radius: 20px;
-    }
-
+    
 }
